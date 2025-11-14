@@ -102,8 +102,8 @@ export default function DesktopNav({
       >
         <button
           className={cn(
-            "flex items-center gap-1 text-sm font-medium px-2 py-1 rounded hover:text-white transition",
-            activeMegaMenu === "products" ? "text-white" : "text-gray-300",
+            "flex items-center gap-1 text-sm font-medium px-2 py-1 rounded hover:text-black transition",
+            activeMegaMenu === "products" ? "text-green-500" : "text-black",
           )}
         >
           Products
@@ -117,17 +117,17 @@ export default function DesktopNav({
       >
         <button
           className={cn(
-            "flex items-center gap-1 text-sm font-medium px-2 py-1 rounded hover:text-white transition",
-            activeMegaMenu === "resources" ? "text-white" : "text-gray-300",
+            "flex items-center gap-1 text-sm font-medium px-2 py-1 rounded hover:text-black transition",
+            activeMegaMenu === "resources" ? "text-green-500" : "text-black",
           )}
         >
           Resources
         </button>
       </div>
-      <Link href="#pricing" className="text-sm font-medium text-gray-300 hover:text-white px-2 py-1 rounded transition">
+      <Link href="#pricing" className="text-sm font-medium text-black hover:text-green-500 px-2 py-1 rounded transition">
         Pricing
       </Link>
-      <Link href="#testimonials" className="text-sm font-medium text-gray-300 hover:text-white px-2 py-1 rounded transition">
+      <Link href="#testimonials" className="text-sm font-medium text-black hover:text-green-500 px-2 py-1 rounded transition">
         Testimonials
       </Link>
       {/* Mega Menu */}

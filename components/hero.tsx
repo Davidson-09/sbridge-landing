@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="relative overflow-hidden py-20 md:py-32">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-white via-[#ecf9ef] to-[#ecf9ef]"></div>
 
       {/* Background SVG pattern */}
       <div className="absolute inset-0 opacity-20">
@@ -23,39 +23,39 @@ export default function Hero() {
       <div className="container relative px-4 md:px-8">
         <div className="mx-auto max-w-5xl text-center">
           <div className="mb-6 mx-auto max-w-4xl inline-block rounded-full bg-gray-800 px-4 py-1 text-sm">
-            <span className="text-purple-400">New</span> — Our platform just got a major upgrade
+            <span className="text-green-400">New</span> — Introducing StrongBridgeMIS
           </div>
-          <h1 className="mb-6 mx-auto max-w-4xl bg-gradient-to-r from-white to-gray-400 bg-clip-text text-4xl font-bold tracking-tight text-transparent md:text-6xl">
-            Streamline Your Workflow with Our SaaS Solution
+          <h1 className="mb-6 mx-auto max-w-4xl bg-gradient-to-r from-gray-900 to-gray-900 bg-clip-text text-4xl font-bold tracking-tight text-transparent md:text-6xl">
+            Smart Workforce Solutions for Today&apos;s Managers
           </h1>
           <p className="mb-10 mx-auto max-w-3xl text-xl text-gray-400 md:text-2xl">
-            Boost productivity and simplify operations with our powerful, easy-to-use platform.
+            A powerful, cloud-based HR and workforce management solution designed to streamline operations, enhance decision-making, and boost employee engagement.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-            <Button className="bg-purple-600 text-white hover:bg-purple-700 h-12 px-8 text-base">
-              Start Free Trial
+            <Button className="bg-[#012d1f] text-white hover:bg-[#012d1f] h-12 px-8 text-base">
+              Login
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
             <Button
               variant="outline"
-              className="border-gray-700 text-gray-300 hover:bg-gray-800 hover:text-white h-12 px-8 text-base"
+              className="border-[#ebf1df] bg-[#ecf1e0] text-[#1d1f13] hover:bg-[#ecf1e0] hover:text-[#1d1f13] h-12 px-8 text-base"
             >
               Book a Demo
             </Button>
           </div>
 
           <div className="mt-16 relative">
-            <div className="absolute -inset-1 rounded-xl bg-gradient-to-r from-purple-600 to-pink-600 opacity-70 blur"></div>
-            <div className="relative rounded-xl border border-gray-800 bg-gray-900 shadow-2xl overflow-hidden">
+            <div className="absolute -inset-1 rounded-xl bg-gradient-to-r from-green-600 to-green-600 opacity-70 blur"></div>
+            <div className="relative rounded-xl border border-green-200s bg-gray-900 shadow-2xl overflow-hidden">
               <Image
-                src="/images/hero.webp"
+                src="/images/hero2.webp"
                 alt="Dashboard Preview"
                 width={1200}
                 height={675}
                 className="w-full h-auto opacity-90"
                 priority
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-transparent to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-[#ebf9ef] via-transparent to-transparent"></div>
             </div>
           </div>
         </div>
