@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Twitter, Facebook, Instagram, Linkedin, Github } from "lucide-react"
+import Image from "next/image"
 
 export default function Footer() {
   return (
@@ -8,10 +9,13 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-4">
           <div>
             <Link href="/" className="flex items-center gap-2 font-bold text-xl">
-              <div className="flex h-8 w-8 items-center justify-center rounded-md bg-purple-600 text-white">S</div>
-              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                SaasPro
-              </span>
+              <Image
+                src={"/logo.png"}
+                alt="logo"
+                width={50}
+                height={50}
+                className="rounded-lg"
+              />
             </Link>
             <p className="mt-4 text-gray-400">Empowering businesses with powerful software solutions since 2023.</p>
             <div className="mt-6 flex space-x-4">
@@ -109,7 +113,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t border-gray-800 pt-8 text-center text-gray-400">
-          <p>© 2024 SaasPro. All rights reserved.</p>
+          <p>© 2025 StrongBridge IT Solutions. All rights reserved.</p>
         </div>
       </div>
     </footer>

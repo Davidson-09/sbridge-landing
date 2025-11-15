@@ -46,7 +46,7 @@ export default function Hero() {
 
           <div className="mt-16 relative">
             <div className="absolute -inset-1 rounded-xl bg-gradient-to-r from-green-600 to-green-600 opacity-70 blur"></div>
-            <div className="relative rounded-xl border border-green-200s bg-gray-900 shadow-2xl overflow-hidden">
+            <div className="relative rounded-xl border border-green-200 bg-gray-900 shadow-2xl overflow-hidden">
               <Image
                 src="/images/hero2.webp"
                 alt="Dashboard Preview"

@@ -31,12 +31,12 @@ export default function Testimonials() {
   return (
     <section id="testimonials" className="relative py-20 md:py-32">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-[#ecf9ef] via-white to-[#ecf9ef]"></div>
 
       <div className="container relative px-4 md:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">What Our Customers Say</h2>
-          <p className="mb-16 text-lg text-gray-400">
+          <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl text-[#012d1f]">What Our Customers Say</h2>
+          <p className="mb-16 text-lg text-gray-800">
             Don't just take our word for it - hear from some of our satisfied customers
           </p>
         </div>
@@ -44,12 +44,12 @@ export default function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="flex flex-col rounded-xl border border-gray-800 bg-gray-900/50 p-6 backdrop-blur-sm"
+              className="flex flex-col rounded-xl border border-gray-800 bg-white p-6 backdrop-blur-sm"
             >
-              <svg className="mb-4 h-8 w-8 text-purple-400" fill="currentColor" viewBox="0 0 24 24">
+              <svg className="mb-4 h-8 w-8 text-[#012d1f]" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
               </svg>
-              <p className="mb-6 flex-1 text-gray-300">{testimonial.quote}</p>
+              <p className="mb-6 flex-1 text-gray-800">{testimonial.quote}</p>
               <div className="flex items-center">
                 <Image
                   src={testimonial.avatar || "/placeholder.svg"}
@@ -59,8 +59,8 @@ export default function Testimonials() {
                   className="mr-4 h-12 w-12 rounded-full object-cover"
                 />
                 <div>
-                  <p className="font-bold">{testimonial.author}</p>
-                  <p className="text-sm text-gray-400">{testimonial.role}</p>
+                  <p className="font-bold text-gray-800">{testimonial.author}</p>
+                  <p className="text-sm text-gray-600">{testimonial.role}</p>
                 </div>
               </div>
             </div>

@@ -5,17 +5,16 @@ import { motion } from "framer-motion"
 
 export default function SocialProof() {
   const companies = [
-    { name: "Slack", logo: "https://cdn.simpleicons.org/slack" },
-    { name: "Shopify", logo: "https://cdn.simpleicons.org/shopify" },
-    { name: "Stripe", logo: "https://cdn.simpleicons.org/stripe" },
-    { name: "Notion", logo: "https://cdn.simpleicons.org/notion" },
-    { name: "Figma", logo: "https://cdn.simpleicons.org/figma" },
-    { name: "Trello", logo: "https://cdn.simpleicons.org/trello" },
+    { name: "Assetium", logo: "https://c4tcbnykdm.ufs.sh/f/xvkOl1HPZOfLVk20DRQbSACUzc3GIx81kavJFtNpLYeXRVum" },
+    { name: "Regno media", logo: "https://c4tcbnykdm.ufs.sh/f/xvkOl1HPZOfLHIFlncTI5TqF2kpr8LDiMYSK4l7OQywUadGe" },
+    { name: "LASAA", logo: "https://c4tcbnykdm.ufs.sh/f/xvkOl1HPZOfLDDCy8ZttHUIAK8YxNvQj1VTyMporRduWhJza" },
+    // { name: "Notion", logo: "https://cdn.simpleicons.org/notion" },
+    // { name: "Figma", logo: "https://cdn.simpleicons.org/figma" },
+    // { name: "Trello", logo: "https://cdn.simpleicons.org/trello" },
   ]
 
   const stats = [
-    { value: "10k+", label: "Active Users" },
-    { value: "500+", label: "Enterprise Clients" },
+    { value: "10k+", label: "Manged Records" },
     { value: "99.9%", label: "Uptime" },
     { value: "24/7", label: "Support" },
   ]
@@ -44,7 +43,7 @@ export default function SocialProof() {
   return (
     <section className="relative py-16 overflow-hidden">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-gray-900 to-gray-950"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-[#ecf9ef] to-[#ecf9ef]"></div>
 
       {/* Decorative elements */}
       <div className="absolute inset-0 opacity-10">
@@ -54,8 +53,8 @@ export default function SocialProof() {
 
       <div className="container relative px-4 md:px-8">
         <div className="text-center mb-12">
-          <p className="text-lg text-purple-400 font-medium mb-2">Trusted by professionals from top brands </p>
-          <h2 className="text-2xl md:text-3xl font-bold">Join thousands of satisfied customers</h2>
+          <p className="text-lg text-black font-medium mb-2">Trusted by professionals from top brands </p>
+          <h2 className="text-2xl md:text-3xl font-bold text-[#012d1f]">Join the growing list of tech savvy managers boosting productivity</h2>
         </div>
 
         {/* Company logos */}
@@ -72,13 +71,13 @@ export default function SocialProof() {
               className="transition-all duration-300"
               variants={itemVariants}
             >
-              <div className="bg-gray-800 rounded-lg p-4 w-[80px] h-[40px] flex items-center justify-center">
+              <div className="rounded-lg p-4  flex items-center justify-center">
                 <Image
                   src={company.logo || "/placeholder.svg"}
                   alt={company.name}
-                  width={50}
-                  height={40}
-                  className="w-auto h-auto brightness-0 invert"
+                  width={100}
+                  height={80}
+                  className="rounded-lg"
                 />
               </div>
             </motion.div>
@@ -86,16 +85,16 @@ export default function SocialProof() {
         </motion.div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-12">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-12">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
               <div className="relative">
-                <div className="absolute -inset-1 rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 opacity-30 blur-sm"></div>
-                <div className="relative bg-gray-900 rounded-lg p-6 border border-gray-800">
-                  <div className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-2">
+                <div className="absolute -inset-1 rounded-lg bg-gradient-to-r from-green-600 to-green-600 opacity-30 blur-sm"></div>
+                <div className="relative bg-gray-100 rounded-lg p-6 border border-gray-800">
+                  <div className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-[#023021] to-[#012d1f] bg-clip-text text-transparent mb-2">
                     {stat.value}
                   </div>
-                  <p className="text-gray-400">{stat.label}</p>
+                  <p className="text-gray-800">{stat.label}</p>
                 </div>
               </div>
             </div>

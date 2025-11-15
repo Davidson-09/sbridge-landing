@@ -6,11 +6,11 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "SaasPro - Modern SaaS Platform",
+  title: "StrongBridgeMIS - Modern management Information System (MIS)",
   description: "Streamline your workflow with our powerful SaaS solution",
   generator: "Mohamed Djoudir",
   openGraph: {
-    title: "SaasPro - Modern SaaS Platform",
+    title: "StrongBridgeMIS - Modern management Information System (MIS)",
     description: "Streamline your workflow with our powerful SaaS solution",
     images: [
       {

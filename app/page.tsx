@@ -98,7 +98,7 @@ function LazyLoad({ children }: { children: React.ReactNode }) {
 
 export default function LandingPage() {
   return (
-    <div className="flex flex-col bg-gray-950 text-gray-100 min-h-[11700px]">
+    <div className="flex flex-col bg-gray-950 text-gray-100 min-h-[1000px]">
       <ScrollRestoration />
       <Header />
       <Hero />
@@ -108,30 +108,30 @@ export default function LandingPage() {
       <LazyLoad>
         <Features />
       </LazyLoad>
-      <LazyLoad>
+      {/* <LazyLoad>
         <HowItWorks />
-      </LazyLoad>
+      </LazyLoad> */}
       <LazyLoad>
         <Testimonials />
       </LazyLoad>
-      <LazyLoad>
+      {/* <LazyLoad>
         <Pricing />
-      </LazyLoad>
-      <LazyLoad>
+      </LazyLoad> */}
+      {/* <LazyLoad>
         <ComparisonTable />
-      </LazyLoad>
-      <LazyLoad>
+      </LazyLoad> */}
+      {/* <LazyLoad>
         <Integrations />
-      </LazyLoad>
-      <LazyLoad>
+      </LazyLoad> */}
+      {/* <LazyLoad>
         <Faq />
-      </LazyLoad>
-      <LazyLoad>
+      </LazyLoad> */}
+      {/* <LazyLoad>
         <BlogPreview />
-      </LazyLoad>
-      <LazyLoad>
+      </LazyLoad> */}
+      {/* <LazyLoad>
         <Cta />
-      </LazyLoad>
+      </LazyLoad> */}
       <LazyLoad>
         <Footer />
       </LazyLoad>

@@ -38,6 +38,11 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'images.unsplash.com',
       },
+      // Allow images served from the UFS hostname used in the project
+      {
+        protocol: 'https',
+        hostname: 'c4tcbnykdm.ufs.sh',
+      },
     ],
   },
   // Update experimental settings to disable scroll restoration
