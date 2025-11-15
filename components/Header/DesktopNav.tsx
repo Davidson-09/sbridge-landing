@@ -124,9 +124,9 @@ export default function DesktopNav({
           Resources
         </button>
       </div> */}
-      <Link href="#pricing" className="text-sm font-medium text-black hover:text-green-500 px-2 py-1 rounded transition">
+      {/* <Link href="#pricing" className="text-sm font-medium text-black hover:text-green-500 px-2 py-1 rounded transition">
         Pricing
-      </Link>
+      </Link> */}
       <Link href="#testimonials" className="text-sm font-medium text-black hover:text-green-500 px-2 py-1 rounded transition">
         Testimonials
       </Link>

@@ -10,9 +10,11 @@ export default function HeaderActions({
 }) {
   return (
     <div className="flex items-center gap-4">
-      <div className="hidden md:block text-sm font-medium text-[#012d1f] hover:text-white px-2 py-1 rounded hover:bg-gray-900 transition">
-        Log in
-      </div>
+      <a href="https://mis.strongbridgeitsolutions.com/login">
+        <div className="hidden md:block text-sm font-medium text-[#012d1f] hover:text-white px-2 py-1 rounded hover:bg-gray-900 transition">
+          Log in
+        </div>
+      </a>
       <Button className="bg-gradient-to-r from-[#023021] to-[#012d1f] text-white hover:from-green-700 hover:to-green-600 shadow-md">
         Contact sales
       </Button>

@@ -32,10 +32,12 @@ export default function Hero() {
             A powerful, cloud-based HR and workforce management solution designed to streamline operations, enhance decision-making, and boost employee engagement.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-            <Button className="bg-[#012d1f] text-white hover:bg-[#012d1f] h-12 px-8 text-base">
-              Login
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
+            <a href="https://mis.strongbridgeitsolutions.com/login">
+              <Button className="bg-[#012d1f] text-white hover:bg-[#012d1f] h-12 px-8 text-base">
+                Login
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </a>
             <Button
               variant="outline"
               className="border-[#ebf1df] bg-[#ecf1e0] text-[#1d1f13] hover:bg-[#ecf1e0] hover:text-[#1d1f13] h-12 px-8 text-base"
