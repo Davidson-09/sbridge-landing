@@ -3,33 +3,33 @@ import { Activity, Lock, Users, Zap, BarChart3, Clock } from "lucide-react"
 export default function Features() {
   const features = [
     {
-      title: "Intuitive Dashboard",
-      description: "Get a complete overview of your business with our easy-to-use dashboard.",
+      title: "Employee Management",
+      description: "centralized profiles, documents, qualifications.",
       icon: <BarChart3 className="h-6 w-6" color="green"/>,
     },
     {
-      title: "Advanced Analytics",
-      description: "Make data-driven decisions with comprehensive analytics and reporting.",
+      title: "Attendance Management",
+      description: "geolocation clock-in/out, attendance reports.",
       icon: <Activity className="h-6 w-6" color="green"/>,
     },
     {
-      title: "Team Collaboration",
-      description: "Work seamlessly with your team members in real-time.",
+      title: "Leave Management",
+      description: "self-service leave applications, balance tracking.",
       icon: <Users className="h-6 w-6" color="green"/>,
     },
     {
-      title: "Automation Tools",
-      description: "Save time by automating repetitive tasks and workflows.",
+      title: "Performance Management",
+      description: "OKRs, 360° feedback, appraisals.",
       icon: <Zap className="h-6 w-6" color="green"/>,
     },
     {
-      title: "Secure Storage",
-      description: "Keep your data safe with enterprise-grade security measures.",
+      title: "Strategic Planning",
+      description: "track goals & milestones with visual dashboards.",
       icon: <Lock className="h-6 w-6" color="green"/>,
     },
     {
-      title: "24/7 Support",
-      description: "Get help whenever you need it with our dedicated support team.",
+      title: "Communication Tools",
+      description: "announcements, notifications, email integration.",
       icon: <Clock className="h-6 w-6" color="green"/>,
     },
   ]

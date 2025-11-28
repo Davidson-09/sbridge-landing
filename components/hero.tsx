@@ -38,12 +38,16 @@ export default function Hero() {
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </a>
-            <Button
-              variant="outline"
-              className="border-[#ebf1df] bg-[#ecf1e0] text-[#1d1f13] hover:bg-[#ecf1e0] hover:text-[#1d1f13] h-12 px-8 text-base"
+            <a 
+              href="https://calendly.com/adavidson-strongbridgeitsolutions/30min"
             >
-              Book a Demo
-            </Button>
+              <Button
+                variant="outline"
+                className="border-[#ebf1df] bg-[#ecf1e0] text-[#1d1f13] hover:bg-[#ecf1e0] hover:text-[#1d1f13] h-12 px-8 text-base"
+              >
+                Book a Demo
+              </Button>
+            </a>
           </div>
 
           <div className="mt-16 relative">

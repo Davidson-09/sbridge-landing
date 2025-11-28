@@ -15,10 +15,12 @@ export default function HeaderActions({
           Log in
         </div>
       </a>
-      <Button className="bg-gradient-to-r from-[#023021] to-[#012d1f] text-white hover:from-green-700 hover:to-green-600 shadow-md">
-        Contact sales
-      </Button>
-      <Button
+      <a href="https://calendly.com/adavidson-strongbridgeitsolutions/30min">
+        <Button className="bg-gradient-to-r from-[#023021] to-[#012d1f] text-white hover:from-green-700 hover:to-green-600 shadow-md">
+          Contact sales
+        </Button>
+      </a>
+      {/* <Button
         variant="ghost"
         size="icon"
         className="md:hidden text-gray-300"
@@ -26,7 +28,7 @@ export default function HeaderActions({
         aria-label="Toggle menu"
       >
         {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-      </Button>
+      </Button> */}
     </div>
   );
 }

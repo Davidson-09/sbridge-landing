@@ -11,7 +11,7 @@ export default function Logo() {
         height={50}
         className="rounded-lg"
       />
-      <span className="bg-gradient-to-r from-[#012d1f] to-green-600 bg-clip-text text-transparent">StrongBridgeMIS</span>
+      <span className="bg-gradient-to-r from-[#012d1f] to-green-600 bg-clip-text text-transparent">StrongBridge</span>
     </Link>
   )
 }

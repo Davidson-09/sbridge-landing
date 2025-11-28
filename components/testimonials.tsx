@@ -4,27 +4,21 @@ export default function Testimonials() {
   const testimonials = [
     {
       quote:
-        "This platform has completely transformed how we manage our projects. The interface is intuitive and the features are exactly what we needed.",
-      author: "Sarah Johnson",
-      role: "Product Manager, TechCorp",
-      avatar:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
+        "StrongBridgeMIS helps me stay on top of company operations and now I can better align my teams with business goals.",
+      author: "Dr. Monsurat Iyabode",
+      role: "CEO, Assetium Capital Management",
     },
     {
       quote:
-        "We've seen a 40% increase in productivity since implementing this solution. The automation features alone have saved us countless hours.",
-      author: "Michael Chen",
-      role: "CTO, GrowthStartup",
-      avatar:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
+        "StrongBridgeMIS is the most feature-rich yet easiest-to-use HR platform I have ever worked with.",
+      author: "Lilian Nwachukwu",
+      role: "COO, Regno Media",
     },
     {
       quote:
-        "The customer support is exceptional. Whenever we've had questions, the team has been quick to respond and incredibly helpful.",
-      author: "Emily Rodriguez",
-      role: "Operations Director, ScaleUp Inc",
-      avatar:
-        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3",
+        "The StrongBridgeMIS software is very intuitive, I could onboard my whole team in a matter of minutes. It's easy to navigate and has all the features we need.",
+      author: "RoseMary Enock",
+      role: "HR Manager, Casalvoro Ltd.",
     },
   ]
 
@@ -51,13 +45,13 @@ export default function Testimonials() {
               </svg>
               <p className="mb-6 flex-1 text-gray-800">{testimonial.quote}</p>
               <div className="flex items-center">
-                <Image
+                {/* <Image
                   src={testimonial.avatar || "/placeholder.svg"}
                   alt={testimonial.author}
                   width={48}
                   height={48}
                   className="mr-4 h-12 w-12 rounded-full object-cover"
-                />
+                /> */}
                 <div>
                   <p className="font-bold text-gray-800">{testimonial.author}</p>
                   <p className="text-sm text-gray-600">{testimonial.role}</p>
